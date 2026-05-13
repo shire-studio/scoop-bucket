@@ -1,0 +1,22 @@
+{
+    "version": "0.3.1-alpha",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/shire-studio/webhookhub-cli/releases/download/v0.3.1-alpha/webhookhub_0.3.1-alpha_windows_amd64.zip",
+            "bin": [
+                "webhookhub.exe"
+            ],
+            "hash": "5c26588cf5f31ef735478d1ef2dd32db798ed133982969a33318831c73d8c0f9"
+        },
+        "arm64": {
+            "url": "https://github.com/shire-studio/webhookhub-cli/releases/download/v0.3.1-alpha/webhookhub_0.3.1-alpha_windows_arm64.zip",
+            "bin": [
+                "webhookhub.exe"
+            ],
+            "hash": "1d70532efa661d1e6f9cb1ca7e3b6518964934d2bf72c2fb9dcfd4dace7f1982"
+        }
+    },
+    "homepage": "https://webhookhub.dev",
+    "license": "MIT",
+    "description": "Tunnel webhooks captured at a stable WebhookHub URL down to your local server"
+}
